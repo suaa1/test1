@@ -6,7 +6,7 @@ import joblib
 model = joblib.load('logistic_regression_model.pkl') 
 
 # 2.모델 설명
-st.title('_______')
+st.title('합불 분류 에이전트')
 col1, col2,col3 = st.columns( ____ )      # 몇 개의 컬럼으로 나눌까?
 with col1:
       st.subheader('모델 설명 ')
